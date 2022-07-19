@@ -18,7 +18,7 @@ body {
 	height: 100vh;
 	display: grid;
 	grid-template-columns: 1fr 2fr;
-	background-color: rgb(215, 215, 215);
+	background-color: rgb(225, 225, 225);
 }
 
 h1 {
@@ -50,6 +50,7 @@ h1 {
 #pitch-area {
 	grid-column: 1;
 	grid-row: 1;
+	background-color: rgb(240, 240, 240);
 }
 
 #form-area {
@@ -57,6 +58,7 @@ h1 {
 	grid-row: 2;
 
 	background-color: rgb(240, 240, 240);
+	box-shadow: 0px 0.5rem 0.5rem DarkGrey;
 }
 
 #submit-area {
@@ -81,6 +83,8 @@ h1 {
 #splash-image {
 	background-image: url("./images/Splash.jpg");
 	background-size: cover;
+	background-color: rgb(240, 240, 240);
+	opacity: 70%;
 
 	grid-column: 1;
 	grid-row: 1 / 4;
