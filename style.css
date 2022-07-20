@@ -39,6 +39,7 @@ body {
 	grid-template-columns: 1fr 2fr;
 	background-color: var(--background-grey);
 	color: var(--body-text);
+	min-height: 100vh;
 }
 
 h1 {
