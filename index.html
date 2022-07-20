@@ -11,10 +11,10 @@
 		<div id="splash-image"></div>
 		<div id="logo-bar">
 			<div id="logo-icon">
-				<img src="logo.png">
+				<img src="./images/logo.png">
 			</div>
 
-			<h1 id="logo-text">Title</h1>
+			<h1 id="logo-text">Flyer</h1>
 		</div>
 
 		<p id="photo-credit">Photo by Conner Moulaison</p>
@@ -22,12 +22,48 @@
 
 	<div id="sign-up-area">
 		<div id="pitch-area">
+			<p>With over 100,000 years of experience, we have the finest experts on hand to basically, help you with your every need, actually.</p>
+			<p>Sign up and finally learn to fly.</p>
 		</div>
 
 		<div id="form-area">
+			<h2>Start today!</h2>
+			<form id="form" action="#" method="post">
+				<div class="input-pair">
+					<label for="first-name">First Name</label>
+					<input required type="text" id="first-name" placeholder="John">
+				</div>
+
+				<div class="input-pair">
+					<label for="last-name">Last Name</label>
+					<input required type="text" id="last-name" placeholder="Doe">
+				</div>
+
+				<div class="input-pair">
+					<label for="email">Email</label>
+					<input required type="email" id="email" placeholder="example@email.com">
+				</div>
+
+				<div class="input-pair">
+					<label for="phone-number">Phone Number</label>
+					<input type="tel" id="phone-number" placeholder="123-456-7890">
+				</div>
+
+				<div class="input-pair">
+					<label for="password">Password</label>
+					<input required type="password" id="password" placeholder="Password1">
+				</div>
+
+				<div class="input-pair">
+					<label for="password-confirmation">Confirm Password</label>
+					<input required type="password" id="password-confirmation" placeholder="Password1">
+				</div>
+			</form>
 		</div>
 
 		<div id="submit-area">
+			<input id="submit-button" type="submit" value="Create Account" form="form" ></button>
+			<p>Already have an account? <a href="#">Login</a></p>
 		</div>
 	</div>
 </body>
